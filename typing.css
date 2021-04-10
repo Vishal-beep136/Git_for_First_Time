@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* here now start the navbar code  */
+
+
+.navbar{
+    background-color:rgb(153, 192, 189) ;
+    /* border-radius: 20px; */
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 24px;
+}
+.navbar li a{
+    padding: 3px 4px;
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    background-color: rgb(255, 255, 255);
+}
+.search{
+    float: right;
+    color: dark white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 3px 17px;
+    width: 129px;
+
+}
+
+
+/* here now end the navbar code  */
+.mainbtn{
+    background-image: radial-gradient(red,orange);
+    padding: 15px 7px 14px 5px;
+    margin: 18px 0px;
+    width: 12%;
+    font-size: larger ;
+    font-weight: bold;
+}
+
+.maindiv{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* background:url("bg1.jpg"); */
+}
+.centerdiv{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #ecf0f1;
+    text-shadow: 1px 2px 3px #2980b9;;;
+    font-size: 2.1rem;
+}
+h2{
+    text-align: center;
+}
+textarea{
+    background-color: #444;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0 0;
+    border: 20px solid #34495e;
+    color: white;
+    font-size: 1.3rem;
+}
+.maindiv{
+    padding: 10px 20px;
+    /* border-radius: 20px; */
+    background: #fbff0e;
+    font-size: 1rem;
+}
